@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  languages=['English','Dutch','Other'];
   constructor() { }
 
   ngOnInit() {
